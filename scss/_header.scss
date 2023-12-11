@@ -11,14 +11,18 @@
 	color: $color_1;
 	display: flex;
 	.contenedor-foto {
-		max-width: 400px;
-		margin-right: 80px;
+		max-width: 700px;
+		margin-right: 90px;
 		img {
 			padding: 20px;
 			width: 100%;
 			border-radius: 20px;
 			background-color: $background-color_1;
 		}
+	}
+
+
+	
 	}
 	.Nosotros {
 		margin: 0 40px;
@@ -64,7 +68,8 @@
 			}
 		}
 	}
-}
+
+
 #locales {
 	padding: 100px 15px;
 	text-align: center;
@@ -74,7 +79,7 @@ $background-color_1: rgba(0, 0, 0, .8);
 /* seccion SOBRE MI */
 /* seccion  LOCALES */
 /* seccion HABLIDADES MI */
-/* seccion PORTFOLIO */
+/* seccion HAMBURGUESA */
 /* seccion CONTACTO */
 @media screen and (max-width: 800px) {
 	.redes {
@@ -102,6 +107,15 @@ $background-color_1: rgba(0, 0, 0, .8);
 	#icono-nav {
 		display: block;
 	}
+
+	/*agrego*/
+
+	
+	.contenedor {
+		max-width: 100%;
+		margin: 0 auto;
+		padding: 20px;
+	}
 	#inicio {
 		.contenido {
 			.presentacion {
@@ -115,7 +129,7 @@ $background-color_1: rgba(0, 0, 0, .8);
 		padding: 50px 0;
 		display: block;
 		.contenedor-foto {
-			max-width: 200px;
+			max-width: 100px;
 			margin: auto;
 			img {
 				padding: 8px;
@@ -131,11 +145,81 @@ $background-color_1: rgba(0, 0, 0, .8);
 			}
 		}
 	}
+
+	
+	
+	/* *********************/
+	/* seccion S E R V I C I O S */
+	/* *********************/
+	#servicio{
+		padding: 100px 15px;
+		text-align: center;
+		background-color: $background-color_1;
+		.titulo-seccion {
+			text-align: center;
+			font-size: 22px;
+			text-transform: uppercase;
+			color: $color_1;
+			text-decoration: underline;
+			text-decoration-color: #d3d3d3;
+			text-decoration-thickness: 5px;
+		}
+		.fila {
+			display: flex;
+			justify-content: space-between;
+			max-width: 100%;
+			margin: 30px auto;
+			.servicio {
+				max-width: 350px;
+				background-color: $background-color_2;
+				padding: 30px;
+				margin: 0 5px;
+				border-radius: 5px;
+				transition: .5s;
+				&:hover {
+					box-shadow: 5px 5px 10px #565656, -5px -5px 10px #8a8a8a;
+				}
+				.icono {
+					display: inline-block;
+					width: 60px;
+					height: 60px;
+					border-radius: 50%;
+					background-color: $background-color_3;
+					padding: 20px;
+					margin-bottom: 25px;
+				}
+				h4 {
+					font-size: 22px;
+					margin-bottom: 25px;
+				}
+				hr {
+					width: 30%;
+					margin: auto;
+					color: $color_2;
+					margin-bottom: 25px;
+				}
+				ul {
+					list-style: none;
+					display: flex;
+					justify-content: space-around;
+					margin-bottom: 10px;
+				}
+				p {
+					font-size: 14px;
+					line-height: 22px;
+				}
+			}
+		}
+	}
+	
+
+
+
 	#locales {
 		padding: 50px 15px;
 	}
 	#servicios {
-		.fila {
+		.fila .fila-card {
 			display: block;
 			.servicio {
 				margin: 10px auto;
@@ -145,7 +229,7 @@ $background-color_1: rgba(0, 0, 0, .8);
 	.contenedor-skills {
 		padding: 50px 20px;
 	}
-	#portfolio {
+	#hamburguesa{
 		padding: 50px 0;
 		.fila {
 			display: block;

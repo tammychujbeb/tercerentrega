@@ -2,18 +2,20 @@
 	background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),url("../img/img9.jpg");
 	background-size: cover;
 	background-position: center center;
-	height: 100vh;}
-#portfolio {
-	max-width: 1100px;
-	padding: 100px 0;
+	
+
+}
+#hamburguesa{
+	max-width: 100vh;
+	padding: 10px 0;
 	margin: auto;
 	.titulo-seccion {
 		text-align: center;
 		font-size: 22px;
 		text-transform: uppercase;
-		color: $color_1;
+		color: $background-color_5;
 		text-decoration: underline;
-		text-decoration-color: #d89e9e;
+		text-decoration-color: #e45454;
 		text-decoration-thickness: 5px;
 	}
 	.fila {
