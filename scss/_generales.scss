@@ -14,22 +14,22 @@ html {
 	background: linear-gradient( rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/img6.jpg");
 	background-size: cover;
 	background-position: center center;
-	height: 100vh;
+	height: 300vh;
 	.contenido .contenedor{
 		header {
-			 background-color: $background-color_1;
-			position: fixed;
-			width: 100%;
-			z-index: 100;
+		 background-color: rgba(10, 9, 9, 0.8);
+		 position: fixed;
+			width: 300%;
+			z-index: 99;
 			top: 0;
-			// place-content: flex-start;
+			place-content: flex-start;
 			.contenido-header {
 				max-width: 1100px;
 				margin: auto;
 				display: flex;
 				justify-content: space-between;
 				align-items: center;
-				padding:10px 20px;
+				padding:15px 10px;
 				h1 {
 					text-align: center;
 					color: $color_1;
@@ -44,10 +44,10 @@ html {
 								text-decoration: none;
 								color: $color_2;
 								margin: 0 12px;
-								font-weight: 400;
+								font-weight:400;
 								transition: .5s;
 								&:hover {
-									color: $color_1;
+									color:$color_1;
 								}
 							}
 						}
@@ -105,7 +105,7 @@ html {
 				display: inline-block;
 				margin: 25px;
 				padding: 20px 25px;
-				border: 2px solid #fff;
+				border: 2px solid #db2121;
 				border-radius: 50px;
 				color: $color_2;
 				font-weight: bold;
